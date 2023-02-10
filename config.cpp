@@ -26,7 +26,7 @@ class CfgFactionClasses {
 // Main eden category
 class CfgEditorCategories{
 	class Rocks_Stupid_boxes_editor_category{
-		displayName = "Rocks Stupid Supplies editor category";
+		displayName = "Rocks Stupid Supplies"; //Eden Main Category
 	};
 };
 class CfgVehicleClasses {
