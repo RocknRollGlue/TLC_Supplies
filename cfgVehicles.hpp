@@ -47,7 +47,7 @@ class RSBA_Alive_supplies: RSB_Box_Support_Source{
 	scope = 2;
 	displayName = "ALiVE Supplies";
 	hiddenSelectionsTextures[] = {
-		"\rocks_Stupid_TLC_box\data\TLC_Signs_1.paa",
+		"\rocks_supply_boxes_tlc\data\TLC_Signs_1.paa",
 		"A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"
 	};
 	class TransportItems{
@@ -67,14 +67,6 @@ class RSB_762_20RND_SR25: RSB_762_20RND_M80 {
 	displayName = "SR-25 20Rnd";
 
 	class TransportMagazines {
-		class rhsusf_20Rnd_762x51_SR25_mk316_special_Mag{
-			magazine="rhsusf_20Rnd_762x51_SR25_mk316_special_Mag";
-			count=20;
-		};
-		class rhsusf_20Rnd_762x51_SR25_m993_Mag{
-			magazine="rhsusf_20Rnd_762x51_SR25_m993_Mag";
-			count=20;
-		};
 		class rhsusf_20Rnd_762x51_SR25_m62_Mag{
 			magazine="rhsusf_20Rnd_762x51_SR25_m62_Mag";
 			count=20;
@@ -82,6 +74,19 @@ class RSB_762_20RND_SR25: RSB_762_20RND_M80 {
 		class rhsusf_20Rnd_762x51_SR25_m118_special_Mag{
 			magazine="rhsusf_20Rnd_762x51_SR25_m118_special_Mag";
 			count=20;
+		};
+	};
+};
+
+
+class RSB_762_20RND_SR10: RSB_762_20RND_M80{
+	scope = 2;
+	displayName = "SR10 20Rnd";
+
+	class TransportMagazines{
+		class JCA_20Rnd_762x51_PMAG{
+			magazine="JCA_20Rnd_762x51_PMAG";
+			count=40;
 		};
 	};
 };

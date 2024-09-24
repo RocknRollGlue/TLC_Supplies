@@ -2,3 +2,4 @@
 "RSBA_Grenades";
 "RSBA_Alive_supplies";
 "RSB_762_20RND_SR25";
+"RSB_762_20RND_SR10";

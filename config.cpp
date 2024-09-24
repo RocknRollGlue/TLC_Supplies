@@ -1,6 +1,6 @@
 class CfgPatches {
-	class rocks_Stupid_TLC_box {
-		name = "Rocks_TLC_box";
+	class rocks_supply_boxes_tlc {
+		name = "rocks_supply_boxes_tlc";
 		author = "Rockn Roll Glue";
 		url = "https://github.com/RocknRollGlue";
 		units[] = {
@@ -12,8 +12,7 @@ class CfgPatches {
 			"rhs_main",
 			"rhsusf_main",
 			"rhsgref_main",
-			"ALiVE",
-			"rocks_Stupid_box"
+			"rocks_supply_boxes"
 		};
 		is3DENmod = 1;
 	};
@@ -25,7 +24,7 @@ class CfgFactionClasses {
 };
 // Main eden category
 class CfgEditorCategories{
-	class Rocks_Stupid_boxes_editor_category{
+	class rocks_supply_boxes_editor_category{
 		displayName = "Rocks Stupid Supplies"; //Eden Main Category
 	};
 };
