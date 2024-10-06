@@ -25,21 +25,25 @@ class RSBA_Grenades: RSB_40mm_Grenades{
 	displayName = "TLC 40mm Grenades";
 	class TransportMagazines{
 		
-		class SmokeShellGreen{
-			magazine = "SmokeShellGreen";
-			count = 15;
+		class 1Rnd_SmokeGreen_Grenade_shell{
+			magazine = "1Rnd_SmokeGreen_Grenade_shell";
+			count = 10;
 		};
-		class SmokeShellRed{
-			magazine = "SmokeShellRed";
-			count = 15;
+		class 1Rnd_SmokeRed_Grenade_shell{
+			magazine = "1Rnd_SmokeRed_Grenade_shell";
+			count = 10;
 		};
-		class SmokeShellPurple{
-			magazine = "SmokeShellPurple";
-			count = 15;
+		class 1Rnd_SmokePurple_Grenade_shell{
+			magazine = "1Rnd_SmokePurple_Grenade_shell";
+			count = 10;
 		};
+		class rhs_mag_m662_red{
+			magazine = "rhs_mag_m662_red";
+			count = 10;
+		}
 		class rhs_mag_M433_HEDP{
 			magazine = "rhs_mag_M433_HEDP";
-			count = 20;
+			count = 25;
 		};
 	};
 };
